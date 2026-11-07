@@ -143,9 +143,10 @@ The application reads its configuration from `APP_NAME` and `VERSION`. The deplo
 The container uses Gunicorn and runs as a non-root user.
 
 ## Prerequisites
+<img width="1850" height="1170" alt="Screenshot from 2026-11-07 16-19-29" src="https://github.com/user-attachments/assets/8fdcc62d-0cc7-4062-be36-d4e765463c90" />
 
 Ensure the following tools are installed:
-
+- Aws ubuntu Compute instance
 - Docker
 - kubectl
 - Kind
@@ -259,6 +260,9 @@ demo.local
 ```
 
 For local access, configure `demo.local` to resolve to the Kind ingress endpoint on your machine.
+
+<img width="1850" height="1170" alt="Screenshot from 2026-11-07 16-28-02" src="https://github.com/user-attachments/assets/2211e2ad-2fa7-411f-8bb2-97ff589e9c78" />
+
 
 Alternatively, use port forwarding:
 
