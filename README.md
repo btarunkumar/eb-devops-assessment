@@ -168,7 +168,7 @@ git --version
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/btarunkumar/eb-devops-assessment.git
 
 cd eb-devops-assessment
 ```
@@ -184,6 +184,11 @@ Verify the image:
 ```bash
 docker images | grep eb-demo-service
 ```
+
+1. Docker Image Build
+
+<img width="1850" height="1170" alt="Screenshot from 2026-11-07 16-05-39" src="https://github.com/user-attachments/assets/7260a464-b1c2-4832-abe0-9d2f3f1088bb" />
+
 
 ### 3. Create or configure the Kind cluster
 
@@ -242,6 +247,8 @@ Check Ingress:
 ```bash
 kubectl get ingress -n demo
 ```
+<img width="1850" height="1170" alt="Screenshot from 2026-11-07 16-04-59" src="https://github.com/user-attachments/assets/f1af1f33-989c-411e-85be-8ccab5cf4edc" />
+
 
 ### 5. Access the application
 
